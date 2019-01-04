@@ -1,0 +1,14 @@
+c:\Users\Steven\Source\Temp1\Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\Users\Steven\Source\Temp1\Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+c:\Users\Steven\Source\Temp1\Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+c:\Users\Steven\Source\Temp1\Tests\bin\Debug\netcoreapp2.1\Tests.deps.json
+c:\Users\Steven\Source\Temp1\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.json
+c:\Users\Steven\Source\Temp1\Tests\bin\Debug\netcoreapp2.1\Tests.runtimeconfig.dev.json
+c:\Users\Steven\Source\Temp1\Tests\bin\Debug\netcoreapp2.1\Tests.dll
+c:\Users\Steven\Source\Temp1\Tests\bin\Debug\netcoreapp2.1\Tests.pdb
+c:\Users\Steven\Source\Temp1\Tests\obj\Debug\netcoreapp2.1\Tests.csprojAssemblyReference.cache
+c:\Users\Steven\Source\Temp1\Tests\obj\Debug\netcoreapp2.1\Tests.csproj.CoreCompileInputs.cache
+c:\Users\Steven\Source\Temp1\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfoInputs.cache
+c:\Users\Steven\Source\Temp1\Tests\obj\Debug\netcoreapp2.1\Tests.AssemblyInfo.cs
+c:\Users\Steven\Source\Temp1\Tests\obj\Debug\netcoreapp2.1\Tests.dll
+c:\Users\Steven\Source\Temp1\Tests\obj\Debug\netcoreapp2.1\Tests.pdb

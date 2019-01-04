@@ -1,0 +1,60 @@
+# ASP.NET Core
+# Build and test ASP.NET Core projects targeting .NET Core.
+# Add steps that run tests, create a NuGet package, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
+
+pool:
+  vmImage: 'VS2017-Win2016'
+
+variables:
+  buildConfiguration: 'Release'
+  projectName: 'TwitterSentiment'
+
+steps:
+- task: SonarSource.sonarcloud.14d9cde6-c1da-4d55-aa01-2965cd301255.SonarCloudPrepare@1
+  displayName: 'Prepare analysis on SonarCloud'
+  inputs:
+    SonarCloud: SonarCloud
+    organization: 'steven-knox24260'
+    projectKey: 'twitter-sentiment-juihdfewuirye87t34ui587'
+    projectName: 'Twitter Sentiment Analysis'
+
+- script: |
+    dotnet build $(projectName)/$(projectName).csproj --configuration $(buildConfiguration)
+    dotnet build $(projectName).Tests/$(projectName).Tests.csproj --configuration $(buildConfiguration)
+    dotnet test $(projectName).Tests/$(projectName).Tests.csproj --configuration $(buildConfiguration) --logger trx
+    dotnet publish $(projectName)/$(projectName).csproj --configuration $(buildConfiguration) --output $BUILD_ARTIFACTSTAGINGDIRECTORY
+  displayName: 'Build & Test'
+  
+- task: PublishTestResults@2
+  inputs:
+    testRunner: VSTest
+    testResultsFiles: '**/*.trx'
+
+- task: SonarSource.sonarcloud.ce096e50-6155-4de8-8800-4221aaeed4a1.SonarCloudAnalyze@1
+  displayName: 'Run Code Analysis'
+
+- task: SonarSource.sonarcloud.38b27399-a642-40af-bb7d-9971f69712e8.SonarCloudPublish@1
+  displayName: 'Publish Quality Gate Result'
+
+- task: DotNetCoreCLI@2
+  displayName: 'dotnet pack'
+  inputs:
+    command: pack
+    nobuild: true
+    projects: '$(projectName)/$(projectName).csproj'
+    versioningScheme: byPrereleaseNumber
+    versionEnvVar: byPrereleaseNumber
+    majorVersion: 0
+    minorVersion: 1
+    patchVersion: 0
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'push'
+    nuGetFeedType: 'internal'
+    packagesToPush: '$(build.artifactStagingDirectory)/*.nupkg'
+    publishVstsFeed: "WholeschoolPackages"
+    publishFeedCredentials: WholeschoolPackagesAuth
+
+- task: PublishBuildArtifacts@1

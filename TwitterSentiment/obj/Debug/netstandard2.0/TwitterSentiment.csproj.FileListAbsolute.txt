@@ -1,0 +1,9 @@
+C:\Users\Steven\Source\TwitterSentiment\TwitterSentiment\obj\Debug\netstandard2.0\TwitterSentiment.csprojAssemblyReference.cache
+C:\Users\Steven\Source\TwitterSentiment\TwitterSentiment\obj\Debug\netstandard2.0\TwitterSentiment.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Source\TwitterSentiment\TwitterSentiment\obj\Debug\netstandard2.0\TwitterSentiment.AssemblyInfoInputs.cache
+C:\Users\Steven\Source\TwitterSentiment\TwitterSentiment\obj\Debug\netstandard2.0\TwitterSentiment.AssemblyInfo.cs
+C:\Users\Steven\Source\TwitterSentiment\TwitterSentiment\bin\Debug\netstandard2.0\TwitterSentiment.deps.json
+C:\Users\Steven\Source\TwitterSentiment\TwitterSentiment\bin\Debug\netstandard2.0\TwitterSentiment.dll
+C:\Users\Steven\Source\TwitterSentiment\TwitterSentiment\bin\Debug\netstandard2.0\TwitterSentiment.pdb
+C:\Users\Steven\Source\TwitterSentiment\TwitterSentiment\obj\Debug\netstandard2.0\TwitterSentiment.dll
+C:\Users\Steven\Source\TwitterSentiment\TwitterSentiment\obj\Debug\netstandard2.0\TwitterSentiment.pdb

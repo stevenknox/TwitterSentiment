@@ -1,0 +1,17 @@
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\bin\Debug\netcoreapp2.1\TwitterSentiment.Tests.deps.json
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\bin\Debug\netcoreapp2.1\TwitterSentiment.Tests.runtimeconfig.json
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\bin\Debug\netcoreapp2.1\TwitterSentiment.Tests.runtimeconfig.dev.json
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\bin\Debug\netcoreapp2.1\TwitterSentiment.Tests.dll
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\bin\Debug\netcoreapp2.1\TwitterSentiment.Tests.pdb
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\bin\Debug\netcoreapp2.1\TwitterSentiment.dll
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\bin\Debug\netcoreapp2.1\TwitterSentiment.pdb
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\obj\Debug\netcoreapp2.1\TwitterSentiment.Tests.csprojAssemblyReference.cache
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\obj\Debug\netcoreapp2.1\TwitterSentiment.Tests.csproj.CoreCompileInputs.cache
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\obj\Debug\netcoreapp2.1\TwitterSentiment.Tests.AssemblyInfoInputs.cache
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\obj\Debug\netcoreapp2.1\TwitterSentiment.Tests.AssemblyInfo.cs
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\obj\Debug\netcoreapp2.1\TwitterSentiment.Tests.csproj.CopyComplete
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\obj\Debug\netcoreapp2.1\TwitterSentiment.Tests.dll
+c:\Users\Steven\Source\TwitterSentiment\TwitterSentiment.Tests\obj\Debug\netcoreapp2.1\TwitterSentiment.Tests.pdb
